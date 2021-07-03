@@ -1,0 +1,24 @@
+{
+    "name": "ribafs/reports",
+    "version":"1.0",
+    "description": "Gerando relatórios em PHP com o software opensource Koolreport.",
+    "keywords": ["php reporting framework","php reporting tools","data processing","data visualization","charts and graphs"],
+    "homepage": "https://github.com/ribafs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KoolPHP Inc",
+            "homepage": "https://www.koolphp.net"
+        },
+	{
+            "name": "Ribamar FS",
+            "homepage": "https://github.com/ribafs"
+        }
+    ], 
+    "require":
+    {
+        "php":">=5.4",
+        "koolreport/core":"^5.0.0"
+    }
+}
